@@ -1,0 +1,57 @@
+header{
+    background-color: #0A22F4;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    
+    
+     
+    
+}
+
+
+li, a {
+    font-family: "Neue Helvetica";
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    
+      
+    
+}
+
+
+.navbar-link{
+    display: flex;
+    justify-content:space-around ;
+ 
+    
+}
+
+.after::after{
+    content:'';
+    width: 0px;
+    height: 3px;
+    background-color: rgb(2, 208, 249);
+    display: block;
+    margin:auto
+    
+   
+}
+
+.after:hover::after{
+    width: 50%;
+    transition:  0.3s linear;
+}
+
+.after::after{
+    color: coral;
+}
+
+
+.navbar-contact{
+    background-color:white;
+    color: #171717;
+    padding: 10px 20px;
+}
