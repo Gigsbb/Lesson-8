@@ -55,3 +55,36 @@ li, a {
     color: #171717;
     padding: 10px 20px;
 }
+
+h2{
+    color: #171717;
+    font-size: 25px;
+    font-weight: bold;
+    margin:180px;
+    
+}
+
+.satauri{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.text{
+    display: flex;
+    justify-content: space-around; 
+    font-size:15px;
+    align-items: center;
+    
+    
+}
+
+p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
