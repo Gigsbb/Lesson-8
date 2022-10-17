@@ -64,27 +64,58 @@ h2{
     
 }
 
-.satauri{
+.parent{
+    
     display: flex;
     justify-content: space-around;
-    margin-right: 150px;
-    font-size: 20px;
-    font-weight: bold;
+    height: 100vh;
+    margin-right: 250px;
     
+
 }
 
-.text{
+.child1{
+    width: 70px;
+    height: 70px;
+    background: #F9F9F9;
+}
+
+.child2{
+    width: 70px;
+    height: 70px;
+    background: #0A22F4;
+}
+
+.child3{
+    width: 70px;
+    height: 70px;
+    background: #F9F9F9;
+}
+
+/* .container{
     display: flex;
-    justify-content: space-around; 
-    font-size:15px;
-    align-items: center;
-    
-    
+    justify-content: center;
+    w
+
+} */
+
+h3{
+    /* padding:10px; */
+    font-weight: bold;
+    font-size:20px;
+    margin-top: 150px;
+    color:#171717;
 }
 
 p{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* padding:10px; */
+    font-size:15px;
+    margin-top: 20px;
+    color:#171717;
+    
+}
+
+h3, p{
    
+    width: 390px;
 }
