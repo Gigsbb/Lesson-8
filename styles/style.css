@@ -92,23 +92,17 @@ h2{
     background: #F9F9F9;
 }
 
-/* .container{
-    display: flex;
-    justify-content: center;
-    w
-
-} */
 
 h3{
-    /* padding:10px; */
     font-weight: bold;
     font-size:20px;
     margin-top: 150px;
     color:#171717;
+    font-weight: bold;
 }
 
 p{
-    /* padding:10px; */
+    font-family: "Neue Helvetica";
     font-size:15px;
     margin-top: 20px;
     color:#171717;
@@ -118,4 +112,5 @@ p{
 h3, p{
    
     width: 390px;
+    
 }
