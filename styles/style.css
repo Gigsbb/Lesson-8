@@ -56,15 +56,7 @@ li, a {
     padding: 10px 20px;
 }
 
-h2{
-    color: #171717;
-    font-size: 25px;
-    font-weight: bold;
-    margin:180px;
-    width: 0px;
-    height: 0%;
-    
-}
+
 
 .parent{
     
@@ -114,6 +106,16 @@ p{
 h3, p{
    
     width: 400px;
+    
+}
+
+h2{
+    color: #171717;
+    font-size: 25px;
+    font-weight: bold;
+    margin:180px;
+    width: 0px;
+    height: 0%;
     
 }
 
