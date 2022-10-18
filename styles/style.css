@@ -61,6 +61,8 @@ h2{
     font-size: 25px;
     font-weight: bold;
     margin:180px;
+    width: 0px;
+    height: 0%;
     
 }
 
@@ -69,8 +71,8 @@ h2{
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    margin-right: 250px;
-    
+    margin-right: 250px; 
+    flex-wrap:wrap;
 
 }
 
@@ -111,6 +113,52 @@ p{
 
 h3, p{
    
-    width: 390px;
+    width: 400px;
     
+}
+
+.center{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.dot1{
+    width: 8px;
+    height: 8px;
+    background-color: #0A22F4;
+    margin-right: 15px;
+    border-radius: 50%;
+    
+    
+}
+
+.dot2{
+    width: 8px;
+    height: 8px;
+    background-color: #0A22F4;
+    margin-right: 15px;
+    border-radius: 50%;
+    opacity: 30%;
+  
+}
+
+.dot3{
+    width: 8px;
+    height: 8px;
+    background-color: #0A22F4;
+    border-radius: 50%;
+    opacity: 30%;
+
+
+    
+   
+}
+
+.dots{
+   display: flex;
+   margin:190px;
+   justify-content: space-between;
+   
+   
 }
